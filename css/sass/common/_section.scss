@@ -1,0 +1,56 @@
+/*SECTION: Business, Team, Clients, Portfolio*/
+
+/* Mobile  (min-width: 320px) and*/
+@media screen and (max-width: 767px) {
+    .section {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+    /*H2*/
+    .section__title {
+        font-weight: var(--title-font-weight);
+        font-size: 28px;
+        line-height: 1.17;
+        text-align: center;
+        color: var(--title-text-color);
+
+        margin-bottom: 30px;
+    }
+}
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+        /*H2*/
+    .section__title {
+        font-weight: var(--title-font-weight);
+        font-size: 28px;
+        line-height: 1.17;
+        text-align: center;
+        color: var(--title-text-color);
+    
+        margin-bottom: 30px;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    .section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    /*H2*/
+    .section__title {
+        font-weight: var(--title-font-weight);
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        color: var(--title-text-color);
+
+        margin-bottom: 50px;
+    }
+}
+
